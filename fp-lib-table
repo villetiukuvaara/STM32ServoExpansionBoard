@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name servo_shield)(type KiCad)(uri "$(KIPRJMOD)/servo_shield.pretty")(options "")(descr ""))
+  (lib (name Arduino)(type KiCad)(uri "$(KIPRJMOD)/arduino-kicad-library/Arduino.pretty")(options "")(descr ""))
+)

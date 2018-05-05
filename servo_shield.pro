@@ -1,4 +1,4 @@
-update=Friday, March 30, 2018 'pmt' 11:43:34 pm
+update=Friday, May 04, 2018 'pmt' 10:28:33 pm
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=arduino-kicad-library/arduino
 LibName31=dc-dc
 LibName32=servo_shield
 LibName33=switches
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -3,12 +3,12 @@
   (general
     (links 158)
     (no_connects 0)
-    (area 125 59.225 205.000001 124.000001)
+    (area 129.924999 62.924999 200.075001 122.075001)
     (thickness 1.6)
     (drawings 38)
     (tracks 345)
     (zones 0)
-    (modules 94)
+    (modules 95)
     (nets 32)
   )
 
@@ -65,7 +65,7 @@
     (grid_origin 130 120)
     (visible_elements FFFFFFFF)
     (pcbplotparams
-      (layerselection 0x010e8_80000001)
+      (layerselection 0x010f8_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -199,6 +199,18 @@
 
   (module servo_shield:VIA_0.35mm_0.55mm (layer F.Cu) (tedit 5AC58481) (tstamp 5AC59DBA)
     (at 149 81)
+    (fp_text reference "" (at 0 0.5) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "" (at 0 -0.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.55 0.55) (drill 0.35) (layers *.Cu)
+      (net 2 GND) (zone_connect 2))
+  )
+
+  (module servo_shield:VIA_0.35mm_0.55mm (layer F.Cu) (tedit 5AC58481) (tstamp 5AC59DB4)
+    (at 151.5 60.8)
     (fp_text reference "" (at 0 0.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )

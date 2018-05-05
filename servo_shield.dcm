@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ST1S10
+D DC/DC Buck Converter, Vin 18V, 3A, Power SO-8
+K DC/DC Buck Conwerter 3A Low Voltage Input
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00169322.pdf
+$ENDCMP
+#
+$CMP ST1S10PHR
+D DC/DC Buck Converter, Vin 18V, 3A, Power SO-8
+K DC/DC Buck Conwerter 3A Low Voltage Input
+F http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00169322.pdf
+$ENDCMP
+#
 #End Doc Library

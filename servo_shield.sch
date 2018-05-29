@@ -353,14 +353,14 @@ F 3 "" H 5250 3450 50  0001 C CNN
 	1    5250 4450
 	1    0    0    -1  
 $EndComp
-Text Label 4300 4750 0    60   ~ 0
-PB_10
+Text Label 4300 4650 0    60   ~ 0
+PA_8
 Text Label 4300 4150 0    60   ~ 0
 PA_6
-Text Label 4300 5050 0    60   ~ 0
-PB_3
-Text Label 6200 4650 2    60   ~ 0
-PB_1
+Text Label 4300 5150 0    60   ~ 0
+PA_10
+Text Label 6200 4850 2    60   ~ 0
+PB_14
 $Comp
 L GND #PWR012
 U 1 1 5ABEC07F
@@ -575,13 +575,13 @@ Wire Wire Line
 	6900 1050 6900 1000
 Connection ~ 6900 1050
 Wire Wire Line
-	5000 4750 4300 4750
+	5000 4650 4300 4650
 Wire Wire Line
 	5000 4150 4300 4150
 Wire Wire Line
-	5000 5050 4300 5050
+	5000 5150 4300 5150
 Wire Wire Line
-	6200 4650 5500 4650
+	6200 4850 5500 4850
 Wire Wire Line
 	2450 4450 2500 4450
 Wire Wire Line
@@ -938,13 +938,6 @@ F 3 "" H 9600 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 1000 9600 1200
-Wire Wire Line
-	9600 1100 9700 1100
-Wire Wire Line
-	9600 1200 9700 1200
-Connection ~ 9600 1100
-Wire Wire Line
 	9600 1750 9600 1950
 Wire Wire Line
 	9600 1850 9700 1850
@@ -988,22 +981,9 @@ F 3 "" H 10800 1150 50  0001 C CNN
 	1    10800 1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR029
-U 1 1 5AC30AAD
-P 10550 1200
-F 0 "#PWR029" H 10550 950 50  0001 C CNN
-F 1 "GND" H 10550 1050 50  0000 C CNN
-F 2 "" H 10550 1200 50  0001 C CNN
-F 3 "" H 10550 1200 50  0001 C CNN
-	1    10550 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	10550 1200 10600 1200
-Wire Wire Line
-	10600 1100 10250 1100
-Text Label 10250 1100 0    60   ~ 0
+	10200 1200 10600 1200
+Text Label 10200 1200 0    60   ~ 0
 BAT_GND
 NoConn ~ 5000 3550
 NoConn ~ 5000 3650
@@ -1013,22 +993,14 @@ NoConn ~ 5500 3750
 NoConn ~ 5500 3850
 NoConn ~ 5500 3950
 NoConn ~ 5500 4050
-NoConn ~ 5500 4150
 NoConn ~ 5500 4250
 NoConn ~ 5000 4350
 NoConn ~ 5000 4450
 NoConn ~ 5000 4550
-NoConn ~ 5000 4700
 NoConn ~ 5500 4550
-NoConn ~ 5500 4750
-NoConn ~ 5500 4850
-NoConn ~ 5500 4950
 NoConn ~ 5500 5150
 NoConn ~ 5500 5250
 NoConn ~ 5500 5350
-NoConn ~ 5000 5150
-NoConn ~ 5000 4950
-NoConn ~ 5000 4850
 NoConn ~ 3000 3650
 NoConn ~ 2500 3750
 NoConn ~ 2500 3850
@@ -1050,7 +1022,6 @@ NoConn ~ 2500 5050
 NoConn ~ 2500 5250
 NoConn ~ 2500 5350
 NoConn ~ 3000 4950
-NoConn ~ 3000 4850
 NoConn ~ 3000 4750
 NoConn ~ 3000 4650
 NoConn ~ 3000 4250
@@ -1180,7 +1151,7 @@ $EndComp
 Wire Wire Line
 	7900 4500 8650 4500
 Text Label 9100 3400 0    60   ~ 0
-PB_1
+PB_14
 $Comp
 L GND #PWR035
 U 1 1 5AC5900E
@@ -1243,7 +1214,7 @@ $EndComp
 Wire Wire Line
 	9950 3150 10700 3150
 Text Label 9100 4700 0    60   ~ 0
-PB_10
+PA_8
 $Comp
 L GND #PWR038
 U 1 1 5AC590E9
@@ -1353,7 +1324,7 @@ F 3 "" H 8850 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 7050 6050 0    60   ~ 0
-PB_11
+PA_11
 $Comp
 L GND #PWR041
 U 1 1 5AC599CD
@@ -1439,7 +1410,7 @@ F 3 "" H 10900 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9100 6000 0    60   ~ 0
-PB_3
+PA_10
 $Comp
 L GND #PWR044
 U 1 1 5AC59AC0
@@ -1517,10 +1488,10 @@ Text Label 4300 4250 0    60   ~ 0
 PA_7
 Wire Wire Line
 	5000 4250 4300 4250
-Text Label 6200 4350 2    60   ~ 0
-PB_11
+Text Label 6200 4150 2    60   ~ 0
+PA_11
 Wire Wire Line
-	6200 4350 5500 4350
+	6200 4150 5500 4150
 $Comp
 L Q_PMOS_GSD Q2
 U 1 1 5AC5B344
@@ -1573,8 +1544,8 @@ Text Label 5650 7050 2    60   ~ 0
 POW_EN
 NoConn ~ 5000 4050
 Wire Wire Line
-	3000 5050 3550 5050
-Text Label 3550 5050 2    60   ~ 0
+	3000 4850 3550 4850
+Text Label 3550 4850 2    60   ~ 0
 POW_EN
 Text Notes 5600 7350 2    60   ~ 0
 Enable servo power
@@ -1592,7 +1563,26 @@ Text Label 10650 5200 3    60   ~ 0
 SERVO_5V
 NoConn ~ 5000 5250
 NoConn ~ 5000 5350
-NoConn ~ 5000 4650
 Text Notes 5850 850  2    60   ~ 0
 Up to 3 A output
+NoConn ~ 3000 5050
+NoConn ~ 5500 4350
+Wire Wire Line
+	9600 1000 9600 1200
+Wire Wire Line
+	10200 1100 10600 1100
+Text Label 10200 1100 0    60   ~ 0
+VIN
+Wire Wire Line
+	9600 1200 9700 1200
+Wire Wire Line
+	9700 1100 9600 1100
+Connection ~ 9600 1100
+NoConn ~ 5500 4650
+NoConn ~ 5000 4750
+NoConn ~ 5000 5050
+NoConn ~ 5000 4850
+NoConn ~ 5000 4950
+NoConn ~ 5500 4950
+NoConn ~ 5500 4750
 $EndSCHEMATC
